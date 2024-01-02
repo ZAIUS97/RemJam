@@ -51,11 +51,5 @@ RUN git clone https://github.com/Neo23x0/Loki.git
 
 RUN cd Loki && python -m pip install -r requirements.txt --break-system-packages
 
-# Download CAPA Test Files
-RUN git clone https://github.com/mandiant/capa-testfiles.git
-
-# Download FLOSS Test Files
-RUN git clone https://github.com/mandiant/flare-floss-testfiles.git
-
 # Default command
 CMD ["/bin/bash"]

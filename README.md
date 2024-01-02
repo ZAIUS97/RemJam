@@ -10,6 +10,7 @@ Tools include:
 - JARM
 - FLOSS
 - YarGen
+- Loki IOC scanner
 - NeoVim
 - Wget
 - Curl
